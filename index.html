@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header
+      class="navbar navbar-expand-lg sticky-top home-navbar bg-body"
+      style="box-shadow: rgba(0, 0, 0, 0.075) 0 1px"
+    >
+      <nav class="container-fluid flex-wrap flex-lg-nowrap">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsableNavbar"
+          aria-controls="collapsableNavbar"
+          aria-expanded="false"
+          aria-label="Toggle Navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">TODO App</a>
+        <div class="collapse navbar-collapse" id="collapsableNavbar">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="#" class="nav-link">new TODO</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="m-lg-4 m-3">
+      <ul class="list-group">
+        <li class="list-group-item d-flex align-items-center">
+          <input type="checkbox" class="form-check-input me-2" />
+          <label for="" class="form-check-label"
+            >Buy groceries for the week</label
+          >
+          <span class="ms-2 text-secondary">8. Mai 2024</span>
+          <span class="ms-2 me-2 text-secondary">55%</span>
+          <div class="ms-auto d-flex flex-nowrap">
+            <button type="button" class="btn btn-outline-danger">Delete</button>
+            <button type="button" class="btn btn-outline-primary ms-2">
+              Edit
+            </button>
+          </div>
+        </li>
+        <li class="list-group-item d-flex align-items-center">
+          <input type="checkbox" class="form-check-input me-2" />
+          <label for="" class="form-check-label"
+            >Schedule a doctor's appointment</label
+          >
+          <span class="ms-2 text-secondary">17. Juni 2023</span
+          ><span class="ms-2 me-2 text-secondary">12%</span>
+          <div class="ms-auto d-flex flex-nowrap">
+            <button type="button" class="btn btn-outline-danger">Delete</button>
+            <button type="button" class="btn btn-outline-primary ms-2">
+              Edit
+            </button>
+          </div>
+        </li>
+        <li class="list-group-item d-flex align-items-center">
+          <input type="checkbox" class="form-check-input me-2" />
+          <label for="" class="form-check-label">Write a report for work</label>
+          <span class="ms-2 text-secondary">25. Juli 2024</span
+          ><span class="ms-2 me-2 text-secondary">38%</span>
+          <div class="ms-auto d-flex flex-nowrap">
+            <button type="button" class="btn btn-outline-danger">Delete</button>
+            <button type="button" class="btn btn-outline-primary ms-2">
+              Edit
+            </button>
+          </div>
+        </li>
+        <li class="list-group-item d-flex align-items-center">
+          <input type="checkbox" class="form-check-input me-2" />
+          <label for="" class="form-check-label"
+            >Call a friend or family member</label
+          >
+          <span class="ms-2 text-secondary">13. August 2023</span
+          ><span class="ms-2 me-2 text-secondary">71%</span>
+          <div class="ms-auto d-flex flex-nowrap">
+            <button type="button" class="btn btn-outline-danger">Delete</button>
+            <button type="button" class="btn btn-outline-primary ms-2">
+              Edit
+            </button>
+          </div>
+        </li>
+        <li class="list-group-item d-flex align-items-center">
+          <input type="checkbox" class="form-check-input me-2" />
+          <label for="" class="form-check-label"
+            >Pay the bills due this week</label
+          >
+          <span class="ms-2 text-secondary">19. September 2024</span
+          ><span class="ms-2 me-2 text-secondary">27%</span>
+          <div class="ms-auto d-flex flex-nowrap">
+            <button type="button" class="btn btn-outline-danger">Delete</button>
+            <button type="button" class="btn btn-outline-primary ms-2">
+              Edit
+            </button>
+          </div>
+        </li>
+        <li class="list-group-item d-flex align-items-center">
+          <input type="checkbox" class="form-check-input me-2" />
+          <label for="" class="form-check-label"
+            >Clean the house/apartment</label
+          >
+          <span class="ms-2 text-secondary">5. Oktober 2023</span
+          ><span class="ms-2 me-2 text-secondary">62%</span>
+          <div class="ms-auto d-flex flex-nowrap">
+            <button type="button" class="btn btn-outline-danger">Delete</button>
+            <button type="button" class="btn btn-outline-primary ms-2">
+              Edit
+            </button>
+          </div>
+        </li>
+        <li class="list-group-item d-flex align-items-center">
+          <input type="checkbox" class="form-check-input me-2" />
+          <label for="" class="form-check-label">Exercise for 30 minutes</label>
+          <span class="ms-2 text-secondary">22. November 2024</span
+          ><span class="ms-2 me-2 text-secondary">5%</span>
+          <div class="ms-auto d-flex flex-nowrap">
+            <button type="button" class="btn btn-outline-danger">Delete</button>
+            <button type="button" class="btn btn-outline-primary ms-2">
+              Edit
+            </button>
+          </div>
+        </li>
+        <li class="list-group-item d-flex align-items-center">
+          <input type="checkbox" class="form-check-input me-2" />
+          <label for="" class="form-check-label"
+            >Organize your desk/workspace</label
+          >
+          <span class="ms-2 text-secondary">7. Dezember 2023</span
+          ><span class="ms-2 me-2 text-secondary">43%</span>
+          <div class="ms-auto d-flex flex-nowrap">
+            <button type="button" class="btn btn-outline-danger">Delete</button>
+            <button type="button" class="btn btn-outline-primary ms-2">
+              Edit
+            </button>
+          </div>
+        </li>
+        <li class="list-group-item d-flex align-items-center">
+          <input type="checkbox" class="form-check-input me-2" />
+          <label for="" class="form-check-label"
+            >Read a book for 30 minutes</label
+          >
+          <span class="ms-2 text-secondary">30. Januar 2025</span
+          ><span class="ms-2 me-2 text-secondary">75%</span>
+          <div class="ms-auto d-flex flex-nowrap">
+            <button type="button" class="btn btn-outline-danger">Delete</button>
+            <button type="button" class="btn btn-outline-primary ms-2">
+              Edit
+            </button>
+          </div>
+        </li>
+        <li class="list-group-item d-flex align-items-center">
+          <input type="checkbox" class="form-check-input me-2" />
+          <label for="" class="form-check-label">Plan a vacation or trip</label>
+          <span class="ms-2 text-secondary">14. Februar 2024</span
+          ><span class="ms-2 me-2 text-secondary">19%</span>
+          <div class="ms-auto d-flex flex-nowrap">
+            <button type="button" class="btn btn-outline-danger">Delete</button>
+            <button type="button" class="btn btn-outline-primary ms-2">
+              Edit
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <footer class="bg-body-tertiary py-4 fixed-bottom">
+      <a
+        href="#"
+        class="mx-auto text-decoration-none text-secondary d-block"
+        style="width: fit-content"
+        >Impressum</a
+      >
+    </footer>
+  </body>
+</html>
